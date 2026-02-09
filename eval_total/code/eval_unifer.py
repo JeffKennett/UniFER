@@ -1,13 +1,34 @@
-# calculate_metrics.py
+"""
+UniFER 总体评估脚本
+=================================
+
+功能说明:
+    本脚本汇总所有数据集的推理结果，计算UniFER模型的整体性能。
+    整合来自四个数据集(AffectNet, RAF-DB, FERPlus, SFEW 2.0)的评估结果。
+
+主要功能:
+    1. 加载所有数据集的推理结果
+    2. 针对每个数据集使用相应的标签提取策略
+    3. 统一标签格式（如将angry->anger, happy->happiness）
+    4. 计算跨数据集的总体性能指标
+    5. 生成综合混淆矩阵和性能报告
+
+作者: UniFER团队
+日期: 2025
+"""
+
 import json
 import re
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, confusion_matrix, classification_report
 
-# 配置参数
+# ==================== 配置参数 ====================
+# 各数据集的推理结果文件路径
 affectnet_input_file = "./UniFER/eval_affectnet/results/affectnet_unifer_7b_results.json"
 rafdb_input_file = "./UniFER/eval_rafdb/results/rafdb_unifer_7b_results.json"
 ferplus_input_file = "./UniFER/eval_ferplus/results/ferplus_unifer_7b_results.json"
 sfew_input_file = "./UniFER/eval_sfew_2.0/results/sfew_2.0_unifer_7b_results.json"
+
+# 输出文件：保存整体评估结果
 output_file = "./UniFER/eval_total/results/unifer_7b_results.json"
 
 def extract_label_ferplus(response, candidate_labels):

@@ -12,7 +12,7 @@
 
 🌟 Official repository for the paper "Rethinking Facial Expression Recognition in the Era of Multimodal Large Language Models"
 
-[[📖 Paper](https://arxiv.org/pdf/2511.00389)] [[🤗 Dataset](https://huggingface.co/datasets/Karl28/UniFER)] [[🤗 Model](https://huggingface.co/Karl28/UniFER-7B)]
+[[📖 Paper](https://arxiv.org/pdf/2511.00389)] [[🤗 Dataset](https://huggingface.co/datasets/Karl28/UniFER)] [[🤗 Model](https://huggingface.co/Karl28/UniFER-7B)] [[📚 中文文档 Chinese Docs](./docs/README.md)]
 
 ## 👀 About UniFER
 
