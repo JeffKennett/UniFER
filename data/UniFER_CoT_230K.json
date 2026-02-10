@@ -1,0 +1,17 @@
+[
+  {
+    "image_path": "/RAF-DB/aligned/train_00001_aligned.jpg",
+    "question": "As an expert in facial expression recognition, which expression is most prominent in this image? Please select your answer from the following candidate labels: surprise, fear, disgust, happiness, sadness, anger, neutral. Provide your detailed reasoning between the <think></think> tags, and then give your final answer between the <answer></answer> tags.",
+    "response": "<think>Looking at the facial features in this image, I observe the following:\n1. The eyebrows are slightly raised\n2. The eyes are wide open\n3. The mouth corners are turned upward\n4. There are visible smile lines around the eyes\n\nThese features are characteristic of a happiness expression. The combination of raised eyebrows, open eyes, and upward-turned mouth corners strongly indicates a positive emotional state.</think><answer>happiness</answer>"
+  },
+  {
+    "image_path": "/FERPlus/train/angry/fer0000001.png",
+    "question": "As an expert in facial expression recognition, which expression is most prominent in this image? Please select your answer from the following candidate labels: angry, contempt, disgust, fear, happy, neutral, sad, surprise. Provide your detailed reasoning between the <think></think> tags, and then give your final answer between the <answer></answer> tags.",
+    "response": "<think>Analyzing the facial expression in this image:\n1. The eyebrows are lowered and drawn together\n2. The eyes appear narrowed with a intense gaze\n3. The lips are pressed together tightly\n4. There is visible tension in the jaw area\n\nThese characteristics - furrowed brows, narrowed eyes, and tense facial muscles - are typical indicators of an angry emotional state.</think><answer>angry</answer>"
+  },
+  {
+    "image_path": "/AffectNet/train/0000001.jpg",
+    "question": "As an expert in facial expression recognition, which expression is most prominent in this image? Please select your answer from the following candidate labels: neutral, happiness, sadness, surprise, fear, disgust, anger, contempt. Provide your detailed reasoning between the <think></think> tags, and then give your final answer between the <answer></answer> tags.",
+    "response": "<think>Examining the facial expression:\n1. The facial muscles appear relaxed\n2. The eyebrows are in a neutral position\n3. The mouth is neither turned up nor down\n4. There are no significant creases or wrinkles indicating emotion\n\nThe overall relaxed state of the facial muscles and lack of distinctive emotional markers suggests a neutral expression.</think><answer>neutral</answer>"
+  }
+]
