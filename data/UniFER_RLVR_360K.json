@@ -1,0 +1,17 @@
+[
+  {
+    "image_path": "/RAF-DB/aligned/train_00002_aligned.jpg",
+    "question": "As an expert in facial expression recognition, which expression is most prominent in this image? Please select your answer from the following candidate labels: surprise, fear, disgust, happiness, sadness, anger, neutral. Provide your detailed reasoning between the <think></think> tags, and then give your final answer between the <answer></answer> tags.",
+    "response": "<think>Analyzing the facial features:\n1. The eyebrows are raised and curved\n2. The eyes are wide open and circular\n3. The mouth is open in an 'O' shape\n4. The overall facial expression shows astonishment\n\nThese features - raised eyebrows, wide eyes, and open mouth - are classic indicators of a surprise expression.</think><answer>surprise</answer>"
+  },
+  {
+    "image_path": "/FERPlus/train/fear/fer0000002.png",
+    "question": "As an expert in facial expression recognition, which expression is most prominent in this image? Please select your answer from the following candidate labels: angry, contempt, disgust, fear, happy, neutral, sad, surprise. Provide your detailed reasoning between the <think></think> tags, and then give your final answer between the <answer></answer> tags.",
+    "response": "<think>Observing the facial expression:\n1. The eyebrows are raised and drawn together\n2. The eyes are wide open showing whites\n3. The upper eyelids are raised\n4. The mouth may be slightly open or stretched\n\nThese features - raised inner eyebrows, wide eyes with visible whites, and tense facial muscles - are characteristic of a fear expression.</think><answer>fear</answer>"
+  },
+  {
+    "image_path": "/AffectNet/train/0000002.jpg",
+    "question": "As an expert in facial expression recognition, which expression is most prominent in this image? Please select your answer from the following candidate labels: neutral, happiness, sadness, surprise, fear, disgust, anger, contempt. Provide your detailed reasoning between the <think></think> tags, and then give your final answer between the <answer></answer> tags.",
+    "response": "<think>Examining the emotional cues:\n1. The eyebrows are drawn down and together\n2. The eyes show a downward gaze\n3. The corners of the mouth are turned downward\n4. There may be visible frowning or pouty expression\n\nThese indicators - downturned mouth, lowered eyebrows, and overall facial drooping - point to a sadness expression.</think><answer>sadness</answer>"
+  }
+]

@@ -50,7 +50,8 @@ model/*.bin
 model/*.safetensors
 
 # Data files (should be downloaded separately)
-data/*.json
+# Note: The following dataset JSON files are now included in the repository
+# data/*.json
 !data/README.md
 *.jpg
 *.png
